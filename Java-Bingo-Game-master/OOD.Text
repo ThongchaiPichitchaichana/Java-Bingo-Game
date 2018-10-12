@@ -1,0 +1,12 @@
+Xinxin Chen
+Bingo Game OOD
+	a program to play a game of bingo on a single card.
+
+	1.write a fillUp method that can fill up the bingo card using bingo.in.
+	2.write a printCard method that will able to print out the bingo card,(also, when the number was choosen, print "X").
+	3.Next, a metod named pickNum contains a new Arraylist BinNum(uses to record the picked number and can be used to print out the Bin number later)  and a Bitset Bin for avoiding number repetition.
+	4.in pickNum, generate random number from 1-75 and use BinNum and Bin to organize them. 
+	5.writing a checkWin method, check win whenever the number in the Bingo card was picked.
+	6.In checkWin method, set 3 types of wins.
+	7.printWin method can be used when there is a win, the method print out the numbers that picked from the Bin and announced the win type and how many picks the player had.
+	8.print out the Bingo card again after the game was played. 
